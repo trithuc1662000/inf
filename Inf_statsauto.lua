@@ -4,8 +4,8 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 })
 _G.GOD = true
 local User = game.Players.LocalPlayer;
-local Normal = "Slot1";
-local Namek = "Slot2";
+local Normal = "Slot2";
+local Namek = "Slot3";
 local name_check = (User.Character.Race.Value == "Namekian")
 if not name_check then
     User.Backpack.ServerTraits.ChatStart:FireServer(workspace.FriendlyNPCs["Character Slot Changer"]); --Switch to normal
